@@ -10,7 +10,8 @@ def current_player(arr)
   if turn_count(arr) == 0
     "X"
   elsif turn_count(arr) % 2 == 0
-
-
+    "X"
+  else
+    "O"
   end
 end

@@ -5,12 +5,12 @@ def turn_count(arr)
 end
 
 def current_player(arr)
-  # turn_count(arr) % 2 ? "X" : "O"
+  # turn_count(arr) % 2 == 0 ? "X" : "O"
 
   if turn_count(arr) == 0
     "X"
-  elsif condition
-    
+  elsif turn_count(arr) % 2 == 0
+
 
   end
 end

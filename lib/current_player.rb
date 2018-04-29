@@ -7,7 +7,7 @@ def turn_count(arr)
   # end
 
   arr.each do |char|
-    ( char == "X" || char == "O" ) ? counter += 1 : 
+    ( char == "X" || char == "O" ) ? counter += 1 : counter += 0
   end
 
   counter

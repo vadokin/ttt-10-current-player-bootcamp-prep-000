@@ -8,7 +8,6 @@ def turn_count(arr)
 
   arr.each do |char|
     char == "X" || char == "O" ? counter += 1 : 
-    end
   end
 
   counter

@@ -1,6 +1,6 @@
 def turn_count(arr)
   counter = 0
-  arr.each |char| do
+  arr.each do |char|
     if char == "X" || "O"
       counter += 1
     end

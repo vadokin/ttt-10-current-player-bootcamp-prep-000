@@ -15,7 +15,7 @@ def turn_count(arr)
   # end
 
   arr.each do |char|
-    ( char == "X" || char == "O" ) ? counter += 1 : nil
+    char == "X" || char == "O" ? counter += 1 : nil
   end
 
   counter

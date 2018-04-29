@@ -4,6 +4,6 @@ def turn_count(arr)
   counter
 end
 
-def current_player()
-  
+def current_player(arr)
+
 end

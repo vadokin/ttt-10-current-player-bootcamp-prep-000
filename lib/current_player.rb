@@ -9,7 +9,8 @@ def current_player(arr)
 
   if turn_count(arr) == 0
     "X"
-  else
+  elsif condition
+    
 
   end
 end

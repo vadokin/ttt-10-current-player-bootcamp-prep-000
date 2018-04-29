@@ -7,5 +7,7 @@ end
 def current_player(arr)
   # turn_count(arr) % 2 ? "X" : "O"
 
-  turn_count(arr) == 0 ? "X" : ( turn_count(arr) % 2 ? "O" : "X" )
+  turn_count(arr) == 0 ? "X" :
+  turn_count(arr) % 2 ? "X" :
+  turn_count(arr) % 3 ? "O" : nil
 end

@@ -5,5 +5,5 @@ def turn_count(arr)
 end
 
 def current_player(arr)
-  turn_count(arr) % 2 
+  turn_count(arr) % 2 ? "X"
 end

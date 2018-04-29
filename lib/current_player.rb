@@ -5,4 +5,5 @@ def turn_count(arr)
       counter += 1
     end
   end
+  counter
 end
